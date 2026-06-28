@@ -1,15 +1,16 @@
-# Interactive CO2 Emissions Dashboard
+# Climate Emissions Analytics Dashboard
 
-An R Shiny dashboard for exploring country-level carbon emissions trends using the Our World in Data CO2 dataset.
+An interactive analytics dashboard for exploring country-level carbon emissions trends using the Our World in Data CO2 dataset.
 
-The app focuses on cement-related CO2 emissions and lets users select countries, variables, and plot colors to compare emissions metrics over time.
+The app focuses on emissions comparison and lets users select countries, metrics, and display options to explore trend lines over time.
 
-## Highlights
+## Product Capabilities
 
 - Loads live CO2 emissions data and codebook files from the OWID CO2 data repository.
 - Uses tidyverse-style preprocessing to compute 2020 cement CO2 totals and 2010-2020 differences.
 - Builds interactive line charts with `ggplot2` and `plotly`.
 - Provides a Shiny UI with tabs for context and visualization.
+- Supports exploratory analysis for climate policy, energy transition, and emissions storytelling.
 
 ## Tech Stack
 
@@ -34,4 +35,4 @@ https://github.com/owid/co2-data
 
 ## Project Context
 
-This project was built as an interactive data application and later cleaned for portfolio presentation. The public version keeps the application code and removes course-specific assignment instructions.
+This project is presented as a lightweight climate data product. The public version keeps the application code and removes non-portfolio instructions.
